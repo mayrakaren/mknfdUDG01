@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css?family=VT323');
+@import url('https://fonts.googleapis.com/css?family=Coiny');
+
+*{
+    margin: 2px;
+    padding: 2px;
+}
+body{
+    text-align: center;
+    background: #e9cea5;
+}
+
+h1{
+ font:bold 40px fantasy, sans-serif;
+ color:#8C1717 ;
+}
+h2{
+  font: 30px fantasy, sans-serif; 
+  color:#D19275;
+}
+h3{
+  font: 20px fantasy, sans-serif; 
+  color:#780B58;
+}
+
+p{
+    border: blueviolet 7px double;
+    
+}
+
+#prueba{
+    font-family: 'Coiny', cursive;
+    font-size: large;
+    color: #5e2256;
+    float:top;
+    width: 880px;
+    margin: 20px;
+    padding: 10px;
+}
+
+#agrupar{
+    width: 800px;
+    margin: 5px auto;
+    font-family: 'VT323', monospace;
+    font-size: x-large;
+    background: #d3cbc3;
+    text-align: left;
+    border: #D35202 7px double;
+    float: left;
+}
+
+#cabecera{
+    background: #81DAF5;
+    border: 1px solid #999999;
+    padding: 20px;
+    text-align: center;
+}
+
+#menu{
+    background: #38B0DE ;
+    padding: 2px 5px;   
+}
+
+
+#menu li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font: bold 12px verdana, sans-serif;
+    color:darkblue;
+}
+
+
+#menu li a:hover{
+    background-color: rgb(80,80,80);
+    color: rgb(255,255,255);
+    
+}
+
+
+#seccion{ 
+    float:top;
+    width: 880px;
+    margin: 20px;
+    padding: 10px;   
+}
+
+#columna{
+    float: right;
+    width: 290px;
+    margin: 70px 0px;
+    padding: 20px;
+    border: darkblue 7px double;
+}
+
+article{
+    
+    background: #f8b496;
+    border: 1px solid #999999;
+    padding: 30px;
+    margin-bottom: 15px;
+    text-align: left;
+    border: white 8px outset;
+}
+
+article footer{
+    text-align: right;
+    font-size: x-small;
+}
+
+time{
+    color: #999999;
+}
+figcaption{
+    font: italic 14px verdana, sans-serif;
+}
+#pie{
+    clear: both;
+    font: italic x-small verdana, sans-serif;
+    text-align: center;   
+    padding: 5px;
+    border-top: 3px solid #999999;
+    color:aqua;
+}
+
+
